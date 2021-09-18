@@ -70,7 +70,7 @@ function prevSlide(){
     // Unset Current Slide and Radio Button
     curr.classList.remove('curr');
     active.classList.remove('active');
-    // Set Next Slide and Radio Button
+    // Set Previous Slide and Radio Button
     if(curr.previousElementSibling){
         curr.previousElementSibling.classList.add('curr');
         active.previousElementSibling.classList.add('active');
